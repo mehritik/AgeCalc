@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/mainBgNSV"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_above="@+id/mainLinr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="      Age   \n Calculator"
+            android:textSize="30sp"
+            android:textColor="@color/colorText"
+            android:fontFamily="@font/montserrat_bold"
+            android:layout_alignParentStart="true"/>
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="240dp"
+            android:layout_height="230dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="5dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/age_calc_icon" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/mainLinr"
+            android:layout_marginTop="12dp"
+            android:layout_below="@id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_marginTop="12dp"
+                android:textAlignment="center"
+                android:id="@+id/resultView"
+                android:visibility="invisible"
+                android:background="@drawable/contact_bg"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:id="@+id/resultText"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorText"
+                        android:text=""
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mainitems"
+                android:layout_marginTop="12dp"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="235dp">
+
+                <RelativeLayout
+                    android:layout_centerInParent="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contact_bg"
+                    android:elevation="12dp">
+
+                    <RelativeLayout
+                        android:layout_margin="10dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <LinearLayout
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:orientation="vertical"
+                            android:layout_marginTop="8dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_gravity="center"
+                                android:text="Today's Date"
+                                android:layout_marginBottom="5dp"
+                                android:textColor="@color/colorText"
+                                android:textSize="14sp"
+                                android:fontFamily="@font/montserrat_bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+
+
+                            <RelativeLayout
+                                android:id="@+id/todayselrel"
+                                android:background="@drawable/custom_edit"
+                                android:layout_width="match_parent"
+                                android:layout_height="39dp">
+
+                                <TextView
+                                    android:id="@+id/todaysel"
+                                    android:text="Select"
+                                    android:textSize="13sp"
+                                    android:fontFamily="@font/montserrat_bold"
+                                    android:textColor="@color/colorText"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                            </RelativeLayout>
+
+                            <TextView
+                                android:layout_marginBottom="5dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="16dp"
+                                android:text="Date of birth"
+                                android:textColor="@color/colorText"
+                                android:textSize="14sp"
+                                android:fontFamily="@font/montserrat_bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <RelativeLayout
+                                android:id="@+id/dobselrel"
+                                android:background="@drawable/custom_edit"
+                                android:layout_width="match_parent"
+                                android:layout_height="39dp">
+
+                                <TextView
+                                    android:id="@+id/dobsel"
+                                    android:text="Select"
+                                    android:textSize="13sp"
+                                    android:fontFamily="@font/montserrat_bold"
+                                    android:textColor="@color/colorText"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                            </RelativeLayout>
+
+
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:text="Calculate"
+                android:background="@drawable/custom_button"
+                android:layout_gravity="center"
+                android:textColor="@color/colorText"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                android:id="@+id/calculateBtn"
+                android:layout_marginTop="-26dp"
+                android:layout_width="115dp"
+                android:layout_height="30dp"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
