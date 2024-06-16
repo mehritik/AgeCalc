@@ -23,7 +23,7 @@ Here are some screenshots of the app in action:
 
 You can download the APK from the following link:
 
-[Download Age Calculator App](https://github.com/hsriv0777/AgeCalc-/blob/master/app/release/app-release.apk)
+[Download Age Calculator App](https://github.com/hsriv0777/AgeCalc/raw/master/app/release/app-release.apk)
 
 ## How to Use
 
