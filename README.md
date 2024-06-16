@@ -1,6 +1,6 @@
 # AgeCalc! (Age Calculator App)
 
-![Demo Image]([path/to/demo_image.png](https://github.com/hsriv0777/AgeCalc-/blob/master/ageCalc/Demo.png))
+![Demo Image](https://github.com/hsriv0777/AgeCalc-/blob/master/ageCalc/Demo.png)
 
 ## About
 
@@ -16,14 +16,14 @@ This Android app calculates the age of a person based on their date of birth. It
 
 Here are some screenshots of the app in action:
 
-![Home Screen]([path/to/home_screen.png](https://github.com/hsriv0777/AgeCalc-/blob/master/ageCalc/HomeScreen.jpg))
-![Calculation Screen]([path/to/calculation_screen.png](https://github.com/hsriv0777/AgeCalc-/blob/master/ageCalc/CalculationScreen.jpg))
+![Home Screen](https://github.com/hsriv0777/AgeCalc-/blob/master/ageCalc/HomeScreen.jpg)
+![Calculation Screen](https://github.com/hsriv0777/AgeCalc-/blob/master/ageCalc/CalculationScreen.jpg)
 
 ## Download
 
 You can download the APK from the following link:
 
-[Download Age Calculator App]([path/to/download_link.apk](https://github.com/hsriv0777/AgeCalc-/blob/master/app/release/app-release.apk))
+[Download Age Calculator App](https://github.com/hsriv0777/AgeCalc-/blob/master/app/release/app-release.apk)
 
 ## How to Use
 
