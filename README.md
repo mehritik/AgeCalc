@@ -1,4 +1,4 @@
-# AgeCalc! (Age Calculator App)
+# AgeCalc!
 
 ![Demo Image](https://github.com/hsriv0777/AgeCalc-/blob/master/ageCalc/Demo.png)
 
