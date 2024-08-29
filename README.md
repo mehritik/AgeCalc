@@ -12,12 +12,23 @@ This Android app calculates the age of a person based on their date of birth. It
 - Calculate exact age in years, months, and days
 - Simple and intuitive user interface
 
-## Demo
+## Screenshots
 
 Here are some screenshots of the app in action:
 
-![Home Screen](https://github.com/hsriv0777/AgeCalc-/blob/master/ageCalc/HomeScreen.jpg)
-![Calculation Screen](https://github.com/hsriv0777/AgeCalc-/blob/master/ageCalc/CalculationScreen.jpg)
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/hsriv0777/AgeCalc-/blob/master/ageCalc/HomeScreen.jpg" alt="Home Screen" width="300">
+      <p>Home Screen</p>
+    </td>
+    <td align="center">
+      <img src="https://github.com/hsriv0777/AgeCalc-/blob/master/ageCalc/CalculationScreen.jpg" alt="Calculation Screen" width="300">
+      <p>Calculation Screen</p>
+    </td>
+  </tr>
+</table>
+
 
 ## Download
 
